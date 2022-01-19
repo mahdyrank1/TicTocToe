@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/Btt1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:background="#E91E63"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/Img1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/Btt2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:background="#E91E63"
+        app:layout_constraintStart_toEndOf="@id/Btt1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/Img2"
+            android:visibility="gone"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/Btt3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:background="#E91E63"
+        app:layout_constraintStart_toEndOf="@id/Btt2"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/Img3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/Btt4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:background="#E91E63"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Btt1"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/Img4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/Btt5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:background="#E91E63"
+        app:layout_constraintStart_toEndOf="@id/Btt4"
+        app:layout_constraintTop_toBottomOf="@id/Btt2"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/Img5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/Btt6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:background="#E91E63"
+        app:layout_constraintStart_toEndOf="@id/Btt5"
+        app:layout_constraintTop_toBottomOf="@id/Btt3"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/Img6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/Btt7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:background="#E91E63"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Btt4"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/Img7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/Btt8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:background="#E91E63"
+        app:layout_constraintStart_toEndOf="@id/Btt7"
+        app:layout_constraintTop_toBottomOf="@id/Btt5"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/Img8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/Btt9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:background="#E91E63"
+        app:layout_constraintStart_toEndOf="@id/Btt8"
+        app:layout_constraintTop_toBottomOf="@id/Btt6"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/Img9"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/resetBtt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Reset"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Btt8" />
+
+    <TextView
+        android:id="@+id/wintext"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resetBtt"
+        android:textSize="40dp"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
